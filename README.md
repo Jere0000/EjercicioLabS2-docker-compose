@@ -1,5 +1,8 @@
 # Ejercicio Docker Compose Lab
 
+## Autor
+- Iparraguirre Silva Jeremy
+
 ## Descripción del Proyecto
 Este proyecto levanta un entorno completo utilizando Docker Compose, el cual incluye tres instancias independientes de una API desarrollada en Node.js mediante un build local, conectadas de forma segura a una base de datos PostgreSQL con persistencia de datos garantizada.
 
@@ -59,6 +62,21 @@ docker compose ps
 ```
 http://localhost:PUERTO
 ```
+
+## Comprobación
+
+Usa uno de los puertos que te muestre `docker compose ps`:
+```bash
+docker compose ps
+```
+
+Luego prueba en el navegador o con:
+```bash
+Invoke-RestMethod http://localhost:PUERTO
+```
+
+Esto repite con cada puerto para confirmar que las 3 réplicas responden correctamente.
+
 ## Detener el proyecto
 
 ```bash
