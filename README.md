@@ -42,9 +42,12 @@ cd EjercicioLabS2-docker-compose
 ```
 
 2. Crear el archivo `.env` en la raíz con estas variables:
+
+```
 POSTGRES_DB=infraLabS2
 POSTGRES_USER=ejem_usuario
 POSTGRES_PASSWORD=11223344
+```
 
 ## Ejecución
 
@@ -75,7 +78,7 @@ Luego prueba en el navegador o con:
 Invoke-RestMethod http://localhost:PUERTO
 ```
 
-Esto repite con cada puerto para confirmar que las 3 réplicas responden correctamente.
+Repite esto con cada puerto para confirmar que las 3 réplicas responden correctamente.
 
 ## Detener el proyecto
 
