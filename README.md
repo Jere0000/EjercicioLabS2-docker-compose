@@ -77,3 +77,11 @@ docker compose down
 - Volumen nombrado: Es como una carpeta que Docker crea y cuida por ti, identificada con un nombre.
 - Bind mount: Conectas una carpeta específica de tu PC al contenedor
 - tmpfs: Guarda cosas solo mientras el contenedor está prendido, en la memoria RAM — se pierde todo al apagar
+
+## Capturas del Trabajo
+
+## Contenedores corriendo
+![Contenedores corriendo](evidencias/01-contenedores-corriendo.png)
+
+## API respondiendo
+![API respondiendo](evidencias/02-api-respondiendo.png)
