@@ -12,7 +12,7 @@ Este proyecto levanta un entorno completo utilizando Docker Compose, el cual inc
 
 ## Estructura de la Arquitectura
 
-​```
+```
 proyecto-docker/
 ├── api/
 │   ├── Dockerfile
@@ -23,7 +23,7 @@ proyecto-docker/
 ├── .gitignore
 ├── docker-compose.yml
 └── README.md
-​```
+```
 
 ## Requisitos
 - Docker Desktop instalado y en ejecución
