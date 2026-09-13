@@ -1,8 +1,5 @@
 # Ejercicio Docker Compose Lab
 
-Este proyecto usa Docker Compose para levantar 3 copias de una API en Node.js junto con una base de datos PostgreSQL, todo corriendo en contenedores separados.
-
-
 ## Descripción del Proyecto
 Este proyecto levanta un entorno completo utilizando Docker Compose, el cual incluye tres instancias independientes de una API desarrollada en Node.js mediante un build local, conectadas de forma segura a una base de datos PostgreSQL con persistencia de datos garantizada.
 
